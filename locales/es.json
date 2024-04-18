@@ -58,6 +58,7 @@
     "boost": "Retootear",
     "boost_count": "{0}",
     "boosted": "Retooteado",
+    "clear": "Limpiar",
     "clear_publish_failed": "Limpiar errores de publicación",
     "clear_save_failed": "Limpiar errores al guardar",
     "clear_upload_failed": "Limpiar errores de subida de archivos",
@@ -74,6 +75,7 @@
     "next": "Siguiente",
     "prev": "Anterior",
     "publish": "Publicar",
+    "publish_thread": "Publicar hilo",
     "reply": "Responder",
     "reply_count": "{0}",
     "reset": "Reestablecer",
@@ -149,7 +151,12 @@
     "mute_account": {
       "cancel": "Cancelar",
       "confirm": "Silenciar",
+      "days": "días|día|días",
       "description": "¿Estás seguro que quieres silenciar a {0}?",
+      "hours": "horas|hora|horas",
+      "minute": "minutos|minuto|minutos",
+      "notifications": "Silenciar notificaciones",
+      "specify_duration": "Especificar la duración del silenciado",
       "title": "Silenciar cuenta"
     },
     "show_reblogs": {
@@ -301,6 +308,7 @@
     "built_at": "Compilado {0}",
     "compose": "Redactar",
     "conversations": "Conversaciones",
+    "docs": "Documentación",
     "explore": "Explorar",
     "favourites": "Favoritas",
     "federated": "Federados",
@@ -309,6 +317,7 @@
     "list": "Lista",
     "lists": "Listas",
     "local": "Local",
+    "more_menu": "Más opciones",
     "muted_users": "Usuarios silenciados",
     "notifications": "Notificaciones",
     "privacy": "Privacidad",
@@ -443,6 +452,8 @@
       "label": "Ajustes de cuenta"
     },
     "interface": {
+      "bottom_nav": "Navegación inferior",
+      "bottom_nav_instructions": "Elige tus botones de navegación favoritos, hasta cinco para la navegación inferior. Debes incluir el botón \"Más opciones\".",
       "color_mode": "Modos de color",
       "dark_mode": "Modo oscuro",
       "default": " (por defecto)",
@@ -454,6 +465,7 @@
     },
     "language": {
       "display_language": "Idioma de pantalla",
+      "how_to_contribute": "¿Cómo contribuir?",
       "label": "Idioma",
       "post_language": "Idioma de publicación",
       "status": "Estado traducción: {0}/{1} ({2}%)",
@@ -535,6 +547,7 @@
       "hide_boost_count": "Ocultar contador de retoots",
       "hide_favorite_count": "Ocultar número de publicaciones favoritas",
       "hide_follower_count": "Ocultar número de seguidores",
+      "hide_gif_indi_on_posts": "Ocultar indicador de gif en publicaciones",
       "hide_news": "Ocultar noticias",
       "hide_reply_count": "Ocultar número de respuestas",
       "hide_tag_hover_card": "Ocultar tarjeta flotante de etiqueta",
@@ -586,7 +599,11 @@
   },
   "state": {
     "attachments_exceed_server_limit": "Número máximo de archivos adjuntos por publicación excedido.",
+    "attachments_limit_audio_error": "Tamaño máximo de audio excedido: {0}",
     "attachments_limit_error": "Límite por publicación excedido",
+    "attachments_limit_image_error": "Tamaño máximo de imagen excedido: {0}",
+    "attachments_limit_unknown_error": "Tamaño máximo de archivo excedido: {0}",
+    "attachments_limit_video_error": "Tamaño máximo de vídeo excedido: {0}",
     "edited": "(Editado)",
     "editing": "Editando",
     "loading": "Cargando...",
@@ -607,6 +624,7 @@
     "favourited_by": "Marcado como favorita por",
     "filter_hidden_phrase": "Filtrado por",
     "filter_show_anyway": "Mostrar de todas formas",
+    "gif": "GIF",
     "img_alt": {
       "ALT": "ALT",
       "desc": "Descripción",
@@ -703,8 +721,9 @@
   "tooltip": {
     "add_content_warning": "Añadir advertencia de contenido",
     "add_emojis": "Agregar emojis",
-    "add_media": "Añadir imágenes, video o audio",
+    "add_media": "Añadir imágenes, vídeo o audio",
     "add_publishable_content": "Publicar contenido",
+    "add_thread_item": "Agregar publicación al hilo",
     "change_content_visibility": "Cambiar visibilidad de contenido",
     "change_language": "Cambiar idioma",
     "emoji": "Emoji",
@@ -714,6 +733,8 @@
     "open_editor_tools": "Herramientas de edición",
     "pick_an_icon": "Selecciona un icono",
     "publish_failed": "Cierra los mensajes fallidos en la parte superior del editor para volver a publicar",
+    "remove_thread_item": "Eliminar publicación del hilo",
+    "start_thread": "Iniciar hilo",
     "toggle_bold": "Cambiar a negrita",
     "toggle_code_block": "Cambiar a bloque de código",
     "toggle_italic": "Cambiar a cursiva"
